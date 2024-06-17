@@ -1,3 +1,5 @@
 Testing authentication
 ----------------------
 principle of least priviledge
+This principle state that,
+The principle of least privilege (also known as the principle of minimal privilege) is a security concept in computer systems and software design. It states that in a system, every module (such as a process, a user, or a program, depending on the subject) must be able to access only the information and resources that are necessary for its legitimate purpose.
