@@ -1,13 +1,22 @@
-<!Doctype> 
 <!DOCTYPE html>
 <html>
 <head>
   <title>Simple HTML Page</title>
+  <link rel="stylesheet" href="app.css">
 </head>
 <body>
-  <h1>Welcome to my simple HTML page!</h1>
-  <p>This is a basic HTML page with a heading and a paragraph of text.</p>
+  
+<svg viewBox="0 0 600 300">
+  <!-- Symbol-->
+  <symbol id="s-text">
+    <text text-anchor="middle" x="50%" y="50%" dy=".35em">intercelular</text>
+  </symbol>
+  <!-- Duplicate symbols-->
+  <use class="text" xlink:href="#s-text"></use>
+  <use class="text" xlink:href="#s-text"></use>
+  <use class="text" xlink:href="#s-text"></use>
+  <use class="text" xlink:href="#s-text"></use>
+  <use class="text" xlink:href="#s-text"></use>
+</svg>
 </body>
 </html>
-
-
